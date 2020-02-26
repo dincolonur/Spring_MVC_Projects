@@ -1,4 +1,4 @@
-## Phone Book Spring MVC Project:
+# Phone Book Spring MVC Project:
 
     To Test the project;
         - Run embedded Jetty server with command "mvn jetty:run"
@@ -7,7 +7,7 @@
         - Upload Files page please select /input/users.txt, /input/phones.txt, /input/companies.txt files
         - Get User List (PDF) link will list the Users in PDF file.
 
-# Version - 1: (Spring-MVC-Project)
+## Version - 1: (Spring-MVC-Project)
 
      1 - Project Batch loading can be done by Upload Files Pages. Uploading files will insert files data into
      users, phone_numbers and phone_companies tables which are created in embedded Derby Database.
@@ -26,7 +26,7 @@
 
       PhoneBookConfig and MyWebInitializer are used for configuring Spring MVC application context and dispatcher servlet.
 
-# Version - 2: (Spring-MVC-Project-Security)
+## Version - 2: (Spring-MVC-Project-Security)
 
     1 - Spring Security structure is added to the project.
 
@@ -45,7 +45,7 @@
 
     5 - Password encoding during authentication is implemented.
 
-# Version - 3: (Spring-MVC-Project-Transactional)
+## Version - 3: (Spring-MVC-Project-Transactional)
 
     1 - UserAccount entity added. Also in DB new user_accounts table added.
     Primary data is inserted to table while application startup.
@@ -68,7 +68,7 @@
         - Only Phone Company ID text field can be edited and updated.
         - If you get any exception, rollback will work.
 
-# Version - 4: (Spring-MVC-Project-Rest)
+## Version - 4: (Spring-MVC-Project-Rest)
 
     1 - First Security removed from the project to wotk REST Services efficiently.
         With new RestfullController class, REST Endpoints added for User entity operations.
