@@ -7,5 +7,5 @@
    http://www.springframework.org/schema/context
    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-    <bean id="UserSummary" class="com.epam.pdf.UserPDFView"></bean>
+    <bean id="UserSummary" class="com.onur.pdf.UserPDFView"></bean>
 </beans>
