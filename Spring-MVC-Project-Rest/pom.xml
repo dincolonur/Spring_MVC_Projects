@@ -27,7 +27,7 @@
         <lowagie.version>2.1.7</lowagie.version>
         <freemarker.version>2.3.26-incubating</freemarker.version>
         <jaction.xml.version>2.7.3</jaction.xml.version>
-        <itext.version>5.0.6</itext.version>
+        <itext.version>5.5.12</itext.version>
     </properties>
 
     <dependencies>
